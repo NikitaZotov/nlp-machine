@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Lexemes in "{{article}}" {% endblock %}</h1>
+
+<form method="get">
+    <table id="data" class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Lexeme</th>
+            <th>Singular</th>
+            <th>Plural</th>
+            <th>Signs</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for lexeme, grammar in lexemes.items() %}
+        <tr>
+            <td>{{ lexeme }}</td>
+            {% if grammar[0].get("paradigm") %}
+            <td>
+                {% if grammar[0]["paradigm"].get("singular") %}
+                {{ grammar[0]["paradigm"]["singular"] }}
+                {% else %}
+                --
+                {% endif %}
+            </td>
+            <td>
+                {% if grammar[0]["paradigm"].get("plural") %}
+                {{ grammar[0]["paradigm"]["plural"] }}
+                {% else %}
+                --
+                {% endif %}
+            </td>
+            {% else %}
+            <td>
+                --
+            </td>
+            <td>
+                --
+            </td>
+            {% endif %}
+            <td>
+                {% if grammar[1].get("signs") %}
+                {{ grammar[1]["signs"] }}
+                {% else %}
+                --
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</form>
+{% endblock %}
