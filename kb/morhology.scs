@@ -1,0 +1,408 @@
+// noun
+concept_noun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [имя существительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [noun] (* <- lang_en;; *);;
+
+concept_common_noun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [нарицательное существительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [common noun] (* <- lang_en;; *);;
+
+concept_proper_noun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [собственное существительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [proper noun] (* <- lang_en;; *);;
+
+concept_abstract_noun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [абстрактное существительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [abstract noun] (* <- lang_en;; *);;
+
+concept_concrete_noun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [конкретное существительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [concrete noun] (* <- lang_en;; *);;
+
+concept_inanimate_noun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [неодушевлённое существительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [inanimate noun] (* <- lang_en;; *);;
+
+concept_animate_noun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [одушевлённое существительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [animate noun] (* <- lang_en;; *);;
+
+concept_masculine
+<- sc_node_not_relation;
+=> nrel_main_idtf: [мужской род] (* <- lang_ru;; *);
+=> nrel_main_idtf: [masculine noun] (* <- lang_en;; *);;
+
+concept_feminine
+<- sc_node_not_relation;
+=> nrel_main_idtf: [женский род] (* <- lang_ru;; *);
+=> nrel_main_idtf: [feminine noun] (* <- lang_en;; *);;
+
+concept_neuter_gender
+<- sc_node_not_relation;
+=> nrel_main_idtf: [средний род] (* <- lang_ru;; *);
+=> nrel_main_idtf: [neuter gender] (* <- lang_en;; *);;
+
+concept_first_declension
+<- sc_node_not_relation;
+=> nrel_main_idtf: [первое склонение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [first declension] (* <- lang_en;; *);;
+
+concept_second_declension
+<- sc_node_not_relation;
+=> nrel_main_idtf: [второе склонение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [second declension] (* <- lang_en;; *);;
+
+concept_third_declension
+<- sc_node_not_relation;
+=> nrel_main_idtf: [третье склонение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [third declension] (* <- lang_en;; *);;
+
+// verb
+concept_verb
+<- sc_node_not_relation;
+=> nrel_main_idtf: [глагол] (* <- lang_ru;; *);
+=> nrel_main_idtf: [verb] (* <- lang_en;; *);;
+
+concept_perfect
+<- sc_node_not_relation;
+=> nrel_main_idtf: [совершенный] (* <- lang_ru;; *);
+=> nrel_main_idtf: [prefect] (* <- lang_en;; *);;
+
+concept_imperfect
+<- sc_node_not_relation;
+=> nrel_main_idtf: [несовершенный] (* <- lang_ru;; *);
+=> nrel_main_idtf: [imperfect] (* <- lang_en;; *);;
+
+concept_transitive
+<- sc_node_not_relation;
+=> nrel_main_idtf: [переходный] (* <- lang_ru;; *);
+=> nrel_main_idtf: [transitive] (* <- lang_en;; *);;
+
+concept_intransitive
+<- sc_node_not_relation;
+=> nrel_main_idtf: [непереходный] (* <- lang_ru;; *);
+=> nrel_main_idtf: [intransitive] (* <- lang_en;; *);;
+
+concept_reflexive
+<- sc_node_not_relation;
+=> nrel_main_idtf: [возвратный] (* <- lang_ru;; *);
+=> nrel_main_idtf: [reflexive] (* <- lang_en;; *);;
+
+concept_inreflexive
+<- sc_node_not_relation;
+=> nrel_main_idtf: [невозвратный] (* <- lang_ru;; *);
+=> nrel_main_idtf: [inreflexive] (* <- lang_en;; *);;
+
+concept_first_conjugation
+<- sc_node_not_relation;
+=> nrel_main_idtf: [первое спряжение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [first conjugation] (* <- lang_en;; *);;
+
+concept_second_conjugation
+<- sc_node_not_relation;
+=> nrel_main_idtf: [второе спряжение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [second conjugation] (* <- lang_en;; *);;
+
+concept_indicative_mood
+<- sc_node_not_relation;
+=> nrel_main_idtf: [изъявительное наклонение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [indicative mood] (* <- lang_en;; *);;
+
+concept_imperative_mood
+<- sc_node_not_relation;
+=> nrel_main_idtf: [повелительное наклонение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [imperative mood] (* <- lang_en;; *);;
+
+concept_conditional_mood
+<- sc_node_not_relation;
+=> nrel_main_idtf: [условное наклонение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [conditional mood] (* <- lang_en;; *);;
+
+concept_first_person
+<- sc_node_not_relation;
+=> nrel_main_idtf: [первое лицо] (* <- lang_ru;; *);
+=> nrel_main_idtf: [first person] (* <- lang_en;; *);;
+
+concept_second_person
+<- sc_node_not_relation;
+=> nrel_main_idtf: [второе лицо] (* <- lang_ru;; *);
+=> nrel_main_idtf: [second person] (* <- lang_en;; *);;
+
+concept_third_person
+<- sc_node_not_relation;
+=> nrel_main_idtf: [третье лицо] (* <- lang_ru;; *);
+=> nrel_main_idtf: [third person] (* <- lang_en;; *);;
+
+concept_past_time
+<- sc_node_not_relation;
+=> nrel_main_idtf: [прошедшее время] (* <- lang_ru;; *);
+=> nrel_main_idtf: [past time] (* <- lang_en;; *);;
+
+concept_present_time
+<- sc_node_not_relation;
+=> nrel_main_idtf: [настоящее время] (* <- lang_ru;; *);
+=> nrel_main_idtf: [present time] (* <- lang_en;; *);;
+
+concept_future_time
+<- sc_node_not_relation;
+=> nrel_main_idtf: [будущее время] (* <- lang_ru;; *);
+=> nrel_main_idtf: [future time] (* <- lang_en;; *);;
+
+// adjective
+concept_adjective
+<- sc_node_not_relation;
+=> nrel_main_idtf: [имя прилагательное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [adjective] (* <- lang_en;; *);;
+
+concept_qualitative_adjective
+<- sc_node_not_relation;
+=> nrel_main_idtf: [качественное прилагательное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [qualitative adjective] (* <- lang_en;; *);;
+
+concept_relative_adjective
+<- sc_node_not_relation;
+=> nrel_main_idtf: [относительное прилагательное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [relative adjective] (* <- lang_en;; *);;
+
+concept_possessive_adjective
+<- sc_node_not_relation;
+=> nrel_main_idtf: [притяжательное прилагательное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [possessive adjective] (* <- lang_en;; *);;
+
+concept_comparative_adjective
+<- sc_node_not_relation;
+=> nrel_main_idtf: [сравнительное прилагательное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [comparative adjective] (* <- lang_en;; *);;
+
+concept_short_form
+<- sc_node_not_relation;
+=> nrel_main_idtf: [краткая форма] (* <- lang_ru;; *);
+=> nrel_main_idtf: [short form] (* <- lang_en;; *);;
+
+concept_full_form
+<- sc_node_not_relation;
+=> nrel_main_idtf: [полная форма] (* <- lang_ru;; *);
+=> nrel_main_idtf: [full form] (* <- lang_en;; *);;
+
+concept_positive_degree
+<- sc_node_not_relation;
+=> nrel_main_idtf: [положительная степень сравнения] (* <- lang_ru;; *);
+=> nrel_main_idtf: [positive degree] (* <- lang_en;; *);;
+
+concept_comparative_degree
+<- sc_node_not_relation;
+=> nrel_main_idtf: [сравнительная степень сравнения] (* <- lang_ru;; *);
+=> nrel_main_idtf: [comparative degree] (* <- lang_en;; *);;
+
+concept_perfect_degree
+<- sc_node_not_relation;
+=> nrel_main_idtf: [превосходная степень сравнения] (* <- lang_ru;; *);
+=> nrel_main_idtf: [perfect degree] (* <- lang_en;; *);;
+
+// all
+nrel_paradigm
+<- sc_node_norole_relation;
+=> nrel_main_idtf: [парадигма*] (* <- lang_ru;; *);
+=> nrel_main_idtf: [paradigm*] (* <- lang_en;; *);;
+
+rrel_nominative_case
+<- sc_node_role_relation;
+=> nrel_main_idtf: [именительный падеж'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [nominative case'] (* <- lang_en;; *);;
+
+rrel_genitive_case
+<- sc_node_role_relation;
+=> nrel_main_idtf: [родительный падеж'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [genitive case'] (* <- lang_en;; *);;
+
+rrel_dative_case
+<- sc_node_role_relation;
+=> nrel_main_idtf: [дательный падеж'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [dative case'] (* <- lang_en;; *);;
+
+rrel_accusative_case
+<- sc_node_role_relation;
+=> nrel_main_idtf: [винительный падеж'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [accusative case'] (* <- lang_en;; *);;
+
+rrel_instrumental_case
+<- sc_node_role_relation;
+=> nrel_main_idtf: [творительный падеж'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [instrumental case'] (* <- lang_en;; *);;
+
+rrel_prepositional_case
+<- sc_node_role_relation;
+=> nrel_main_idtf: [предложный падеж'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [prepositional case'] (* <- lang_en;; *);;
+
+rrel_singular
+<- sc_node_role_relation;
+=> nrel_main_idtf: [единственное число'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [singular'] (* <- lang_en;; *);;
+
+rrel_plural
+<- sc_node_role_relation;
+=> nrel_main_idtf: [множественное число'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [plural'] (* <- lang_en;; *);;
+
+// adverb
+concept_adverb
+<- sc_node_not_relation;
+=> nrel_main_idtf: [наречие] (* <- lang_ru;; *);
+=> nrel_main_idtf: [adverb] (* <- lang_en;; *);;
+
+concept_time_adverb
+<- sc_node_not_relation;
+=> nrel_main_idtf: [наречие времени] (* <- lang_ru;; *);
+=> nrel_main_idtf: [time adverb] (* <- lang_en;; *);;
+
+concept_comparative_adverb
+<- sc_node_not_relation;
+=> nrel_main_idtf: [наречие сравнительной степени] (* <- lang_ru;; *);
+=> nrel_main_idtf: [comparative adverb] (* <- lang_en;; *);;
+
+concept_superlative_adverb
+<- sc_node_not_relation;
+=> nrel_main_idtf: [наречие превосходной степени] (* <- lang_ru;; *);
+=> nrel_main_idtf: [superlative adverb] (* <- lang_en;; *);;
+
+// digit
+concept_cardinal_digit
+<- sc_node_not_relation;
+=> nrel_main_idtf: [количественное числительное] (* <- lang_ru;; *);
+=> nrel_main_idtf: [cardinal digit] (* <- lang_en;; *);;
+
+// pronoun
+concept_pronoun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [местоимение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [pronoun] (* <- lang_en;; *);;
+
+concept_personal_pronoun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [личное местоимение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [personal pronoun] (* <- lang_en;; *);;
+
+concept_demonstrative_pronoun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [указательное местоимение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [demonstrative pronoun] (* <- lang_en;; *);;
+
+// participle
+concept_participle
+<- sc_node_not_relation;
+=> nrel_main_idtf: [частица] (* <- lang_ru;; *);
+=> nrel_main_idtf: [participle] (* <- lang_en;; *);;
+
+// preposition
+concept_preposition
+<- sc_node_not_relation;
+=> nrel_main_idtf: [предлог] (* <- lang_ru;; *);
+=> nrel_main_idtf: [preposition] (* <- lang_en;; *);;
+
+concept_determiner
+<- sc_node_not_relation;
+=> nrel_main_idtf: [определяемое слово] (* <- lang_ru;; *);
+=> nrel_main_idtf: [determiner] (* <- lang_en;; *);;
+
+concept_existential_there
+<- sc_node_not_relation;
+=> nrel_main_idtf: [локатив] (* <- lang_ru;; *);
+=> nrel_main_idtf: [existential there] (* <- lang_en;; *);;
+
+concept_foreign_word
+<- sc_node_not_relation;
+=> nrel_main_idtf: [иностранное слово] (* <- lang_ru;; *);
+=> nrel_main_idtf: [foreign word] (* <- lang_en;; *);;
+
+concept_list_marker
+<- sc_node_not_relation;
+=> nrel_main_idtf: [пункт списка] (* <- lang_ru;; *);
+=> nrel_main_idtf: [list marker] (* <- lang_en;; *);;
+
+concept_modal
+<- sc_node_not_relation;
+=> nrel_main_idtf: [модальный глагол] (* <- lang_ru;; *);
+=> nrel_main_idtf: [modal] (* <- lang_en;; *);;
+
+concept_predeterminer
+<- sc_node_not_relation;
+=> nrel_main_idtf: [предетерминатив] (* <- lang_ru;; *);
+=> nrel_main_idtf: [predeterminer] (* <- lang_en;; *);;
+
+concept_possessive_ending
+<- sc_node_not_relation;
+=> nrel_main_idtf: [притяжательное окончание] (* <- lang_ru;; *);
+=> nrel_main_idtf: [possessive ending] (* <- lang_en;; *);;
+
+concept_interjection
+<- sc_node_not_relation;
+=> nrel_main_idtf: [междометие] (* <- lang_ru;; *);
+=> nrel_main_idtf: [interjection] (* <- lang_en;; *);;
+
+concept_gerund
+<- sc_node_not_relation;
+=> nrel_main_idtf: [герундий] (* <- lang_ru;; *);
+=> nrel_main_idtf: [gerund] (* <- lang_en;; *);;
+
+concept_wh_determiner
+<- sc_node_not_relation;
+=> nrel_main_idtf: [определение с wh-] (* <- lang_ru;; *);
+=> nrel_main_idtf: [wh-determiner] (* <- lang_en;; *);;
+
+concept_wh_pronoun
+<- sc_node_not_relation;
+=> nrel_main_idtf: [вопросительное слово с w-] (* <- lang_ru;; *);
+=> nrel_main_idtf: [wh-pronoun] (* <- lang_en;; *);;
+
+concept_wh_abverb
+<- sc_node_not_relation;
+=> nrel_main_idtf: [наречие с wh-] (* <- lang_ru;; *);
+=> nrel_main_idtf: [wh-abverb] (* <- lang_en;; *);;
+
+concept_verb_in_base_form
+<- sc_node_not_relation;
+=> nrel_main_idtf: [глагол настоящего времени] (* <- lang_ru;; *);
+=> nrel_main_idtf: [verb in base form] (* <- lang_en;; *);;
+
+concept_verb_in_past_tense
+<- sc_node_not_relation;
+=> nrel_main_idtf: [глагол прошедшего времени] (* <- lang_ru;; *);
+=> nrel_main_idtf: [verb in past tense] (* <- lang_en;; *);;
+
+concept_verb_in_past_perfect
+<- sc_node_not_relation;
+=> nrel_main_idtf: [глагол времени perfect] (* <- lang_ru;; *);
+=> nrel_main_idtf: [verb in past perfect] (* <- lang_en;; *);;
+
+concept_verb_in_present_tense
+<- sc_node_not_relation;
+=> nrel_main_idtf: [глагол в единственном числе настоящего времени] (* <- lang_ru;; *);
+=> nrel_main_idtf: [verb in present tense] (* <- lang_en;; *);;
+
+concept_verb_for_3rd_person_in_present_tense
+<- sc_node_not_relation;
+=> nrel_main_idtf: [глагол 3 лица настоящего времени] (* <- lang_ru;; *);
+=> nrel_main_idtf: [verb for 3rd person in present tense] (* <- lang_en;; *);;
+
+action_deactivated <- sc_node_not_relation;;
+action_morphological_analysis <- sc_node_not_relation;;
+
+action_lexical_analysis_agent <- sc_node_not_relation;;
+action_lexical_grammar_analysis_agent <- sc_node_not_relation;;
+action_sentences_analysis_agent <- sc_node_not_relation;;
+
+nrel_text_decomposition <- sc_node_norole_relation;;
+nrel_sequence_in_linear_text <- sc_node_norole_relation;;
+
+languages
+<- sc_node;
+-> lang_en (* <- sc_node_class;; *);
+-> lang_ru (* <- sc_node_class;; *);;
