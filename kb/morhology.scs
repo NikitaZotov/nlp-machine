@@ -406,3 +406,7 @@ languages
 <- sc_node;
 -> lang_en (* <- sc_node_class;; *);
 -> lang_ru (* <- sc_node_class;; *);;
+
+concept_text
+<- sc_node_not_relation;
+=> nrel_main_idtf: [text] (* <- lang_en;; *);;
