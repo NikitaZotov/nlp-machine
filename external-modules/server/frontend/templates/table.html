@@ -10,24 +10,24 @@
             <th>Lexeme</th>
             <th>Singular</th>
             <th>Plural</th>
-            <th>Signs</th>
+            <th>Attributes</th>
         </tr>
         </thead>
         <tbody>
         {% for lexeme, grammar in lexemes.items() %}
         <tr>
             <td>{{ lexeme }}</td>
-            {% if grammar[0].get("paradigm") %}
+            {% if grammar.get("paradigm") %}
             <td>
-                {% if grammar[0]["paradigm"].get("singular") %}
-                {{ grammar[0]["paradigm"]["singular"] }}
+                {% if grammar["paradigm"].get("singular") %}
+                {{ grammar["paradigm"]["singular"] }}
                 {% else %}
                 --
                 {% endif %}
             </td>
             <td>
-                {% if grammar[0]["paradigm"].get("plural") %}
-                {{ grammar[0]["paradigm"]["plural"] }}
+                {% if grammar["paradigm"].get("plural") %}
+                {{ grammar["paradigm"]["plural"] }}
                 {% else %}
                 --
                 {% endif %}
@@ -41,8 +41,8 @@
             </td>
             {% endif %}
             <td>
-                {% if grammar[1].get("signs") %}
-                {{ grammar[1]["signs"] }}
+                {% if grammar.get("attributes") %}
+                {{ grammar["attributes"] }}
                 {% else %}
                 --
                 {% endif %}

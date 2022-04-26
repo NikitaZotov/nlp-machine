@@ -13,3 +13,11 @@ class Identifiers(Enum):
     NREL_TEXT_DECOMPOSITION = "nrel_text_decomposition"
     NREL_SEQUENCE_IN_LINEAR_TEXT = "nrel_sequence_in_linear_text"
     CONCEPT_LEXICAL_STRUCTURE = "concept_lexical_structure"
+    CONCEPT_TEXT = "concept_text"
+
+
+class Keywords(Enum):
+    PARADIGM = "paradigm"
+    SINGULAR = "singular"
+    PLURAL = "plural"
+    ATTRIBUTES = "attributes"

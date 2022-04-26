@@ -2,7 +2,7 @@
     Author Zotov Nikita
 """
 
-FLASK_IP = "127.0.0.1"
+FLASK_IP = "127.0.1.8"
 FLASK_PORT = 5000
 PLATFORM_IP = "127.0.0.1"
 PLATFORM_PORT = 8090
