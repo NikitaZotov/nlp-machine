@@ -8,10 +8,17 @@ from json_client.constants import sc_types
 from json_client.dataclass import ScTemplate, ScAddr
 from json_client.sc_keynodes import ScKeynodes
 from modules.common.constants import ScAlias
-from modules.common.generator import generate_link, generate_edge, set_en_main_idtf, generate_node, \
-    generate_binary_relation
+from modules.common.generator import \
+    (
+        generate_link,
+        generate_edge,
+        set_en_main_idtf,
+        generate_node,
+        generate_binary_relation,
+    )
 from modules.common.identifiers import ActionIdentifiers, QuestionStatus, CommonIdentifiers
-from modules.common.searcher import get_element_by_norole_relation, get_system_idtf, get_element_by_role_relation
+from modules.common.searcher import get_element_by_norole_relation, get_system_idtf, get_element_by_role_relation, \
+    get_element_by_main_idtf
 from modules.common.utils import complete_agent
 from .constants import Identifiers, Keywords
 from .lexeme_translator import LexemeTranslator
@@ -100,23 +107,9 @@ class NLPService:
         if len(text_article) == 0:
             return ScAddr(0)
 
-        links = client.get_link_by_content([text_article])[0]
-        if len(links) == 0:
-            return ScAddr(0)
-
-        template = ScTemplate()
-        template.triple_with_relation(
-            [sc_types.NODE_VAR, ScAlias.NODE.value],
-            sc_types.EDGE_D_COMMON_VAR,
-            links[0],
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            self._keynodes[CommonIdentifiers.NREL_MAIN_IDENTIFIER.value],
-        )
-        result = client.template_search(template)
-        if len(result) == 0:
-            return ScAddr(0)
-
-        text_addr = result[0].get(ScAlias.NODE.value)
+        text_addr = get_element_by_main_idtf(text_article)
+        if not text_addr.is_valid():
+            return text_addr
 
         template = ScTemplate()
         template.triple_with_relation(
@@ -144,6 +137,22 @@ class NLPService:
             return client.get_link_content(link).data
 
         return ""
+
+    def get_text_lexical_structure(self, text_article: str) -> ScAddr:
+        text_link_addr = self._get_text_link_by_article(text_article)
+
+        template = ScTemplate()
+        template.triple(
+            [sc_types.NODE_VAR_STRUCT, ScAlias.NODE.value],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            text_link_addr
+        )
+        result = client.template_search(template)
+
+        if len(result) == 0:
+            return ScAddr(0)
+
+        return result[0].get(ScAlias.NODE.value)
 
     def _get_linear_text_forms(self, decomposition_addr: ScAddr) -> List[ScAddr]:
         link = get_element_by_role_relation(decomposition_addr, self._keynodes[CommonIdentifiers.RREL_ONE.value])

@@ -82,6 +82,50 @@ def get_en_main_idtf(addr: ScAddr) -> str:
     return ""
 
 
+def get_element_by_main_idtf(idtf: str) -> ScAddr:
+    keynodes = ScKeynodes()
+
+    links = client.get_link_by_content([idtf])[0]
+    if len(links) == 0:
+        return ScAddr(0)
+
+    template = ScTemplate()
+    template.triple_with_relation(
+        [sc_types.NODE_VAR, ScAlias.NODE.value],
+        sc_types.EDGE_D_COMMON_VAR,
+        links[0],
+        sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        keynodes[CommonIdentifiers.NREL_MAIN_IDENTIFIER.value],
+    )
+    result = client.template_search(template)
+    if len(result) == 0:
+        return ScAddr(0)
+
+    return result[0].get(ScAlias.NODE.value)
+
+
+def get_element_by_system_idtf(idtf: str) -> ScAddr:
+    keynodes = ScKeynodes()
+
+    links = client.get_link_by_content([idtf])[0]
+    if len(links) == 0:
+        return ScAddr(0)
+
+    template = ScTemplate()
+    template.triple_with_relation(
+        [sc_types.NODE_VAR, ScAlias.NODE.value],
+        sc_types.EDGE_D_COMMON_VAR,
+        links[0],
+        sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        keynodes[CommonIdentifiers.NREL_SYSTEM_IDENTIFIER.value],
+    )
+    result = client.template_search(template)
+    if len(result) == 0:
+        return ScAddr(0)
+
+    return result[0].get(ScAlias.NODE.value)
+
+
 def get_power_of_set(source: ScAddr) -> int:
     edge_type = sc_types.EDGE_ACCESS_VAR_POS_PERM
     target = sc_types.UNKNOWN
