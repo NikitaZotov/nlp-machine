@@ -37,6 +37,21 @@ class SentenceSynthesizer:
         self._puncts = [',', '.', '!', '?', ';', '-', ':']
 
     def synthesize(self, forms_lexemes: Dict[str, str], text_link_addr: ScAddr) -> ScAddr:
+        struct_addr = self._find_text_lexical_structure(text_link_addr)
+        if struct_addr.is_valid():
+            return struct_addr
+
+        struct_addr = generate_node(sc_types.NODE_CONST_STRUCT)
+        generate_edge(self.concept_lexical_structure, struct_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
+
+        decomposition_addr = self._generate_text_decomposition_tuple(text_link_addr, struct_addr)
+
+        logger.info("Decompose text")
+        self._generate_lexemes_sequence(forms_lexemes, decomposition_addr, struct_addr)
+
+        return struct_addr
+
+    def _find_text_lexical_structure(self, text_link_addr: ScAddr) -> ScAddr:
         template = ScTemplate()
         template.triple_with_relation(
             text_link_addr,
@@ -54,28 +69,31 @@ class SentenceSynthesizer:
         if len(results) != 0:
             return results[0].get(ScAlias.NODE.value)
 
-        struct_addr = generate_node(sc_types.NODE_CONST_STRUCT)
-        generate_edge(self.concept_lexical_structure, struct_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
-        decomposition_addr = self._generate_text_decomposition_tuple(text_link_addr, struct_addr)
-        logger.info("Decompose text")
-
-        self._generate_lexemes_sequence(forms_lexemes, decomposition_addr, struct_addr)
-
-        return struct_addr
+        return ScAddr(0)
 
     def _generate_text_decomposition_tuple(self, text_link_addr: ScAddr, struct_addr: ScAddr) -> ScAddr:
         decomposition_addr = generate_node(sc_types.NODE_CONST_TUPLE)
         common_edge = generate_edge(text_link_addr, decomposition_addr, sc_types.EDGE_D_COMMON_CONST)
         edge = generate_edge(self.nrel_text_decomposition, common_edge, sc_types.EDGE_ACCESS_CONST_POS_PERM)
 
-        wrap_in_set([text_link_addr, decomposition_addr, common_edge, edge, self.nrel_text_decomposition], struct_addr)
+        wrap_in_set(
+            [
+                text_link_addr,
+                decomposition_addr,
+                common_edge,
+                edge,
+                self.nrel_text_decomposition,
+                self.nrel_sequence_in_linear_text
+            ],
+            struct_addr
+        )
 
         return decomposition_addr
 
     def _generate_lexemes_sequence(
             self, forms_lexemes: Dict[str, str], decomposition_addr: ScAddr, struct_addr: ScAddr
     ) -> None:
-        prev_link_addr = ScAddr(0)
+        prev_form_addr = ScAddr(0)
 
         logger.info("Generate lexemes sequence")
         for form, lexeme in forms_lexemes.items():
@@ -85,10 +103,10 @@ class SentenceSynthesizer:
             if lexeme in self._puncts:
                 continue
 
-            _, link_addr = self._resolve_lexeme_form(lexeme, form, decomposition_addr, struct_addr)
+            _, form_addr = self._resolve_lexeme_and_form(lexeme, form, decomposition_addr, struct_addr)
 
-            if prev_link_addr.is_valid():
-                common_edge = generate_edge(prev_link_addr, link_addr, sc_types.EDGE_D_COMMON_CONST)
+            if prev_form_addr.is_valid():
+                common_edge = generate_edge(prev_form_addr, form_addr, sc_types.EDGE_D_COMMON_CONST)
                 edge = generate_edge(
                     self.nrel_sequence_in_linear_text, common_edge, sc_types.EDGE_ACCESS_CONST_POS_PERM
                 )
@@ -98,7 +116,7 @@ class SentenceSynthesizer:
                 template.triple(
                     decomposition_addr,
                     [sc_types.EDGE_ACCESS_VAR_POS_PERM, ScAlias.ACCESS_EDGE.value],
-                    link_addr,
+                    form_addr,
                 )
                 results = client.template_search(template)
 
@@ -109,9 +127,9 @@ class SentenceSynthesizer:
                         sc_types.EDGE_ACCESS_CONST_POS_PERM)
                     wrap_in_set([edge, self._keynodes[CommonIdentifiers.RREL_ONE.value]], struct_addr)
 
-            prev_link_addr = link_addr
+            prev_form_addr = form_addr
 
-    def _resolve_lexeme_form(
+    def _resolve_lexeme_and_form(
             self, lexeme: str, form: str, decomposition_addr: ScAddr, struct_addr: ScAddr
     ) -> Tuple[ScAddr, ScAddr]:
         lexeme_addr = self._keynodes.__getitem__(self._lexeme_prefix + lexeme, sc_types.NODE_CONST)
@@ -120,29 +138,18 @@ class SentenceSynthesizer:
         if not class_edge.is_valid():
             class_edge = generate_edge(self.concept_lexeme, lexeme_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
 
-        link_addr, link_edge = self._resolve_lexeme_link_element(lexeme_addr, form)
+        form_addr, link_edge = self._resolve_lexeme_form(lexeme_addr, form)
 
-        edge = get_edge(decomposition_addr, link_addr, sc_types.EDGE_ACCESS_VAR_POS_PERM)
+        edge = get_edge(decomposition_addr, form_addr, sc_types.EDGE_ACCESS_VAR_POS_PERM)
         if not edge.is_valid():
-            edge = generate_edge(decomposition_addr, link_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
+            edge = generate_edge(decomposition_addr, form_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
 
-        wrap_in_set([lexeme_addr, class_edge, edge, link_addr, link_edge], struct_addr)
+        wrap_in_set([lexeme_addr, class_edge, edge, form_addr, link_edge], struct_addr)
 
-        return lexeme_addr, link_addr
+        return lexeme_addr, form_addr
 
-    def _resolve_lexeme_link_element(self, lexeme_addr: ScAddr, lexeme: str) -> Tuple[ScAddr, ScAddr]:
-        template = ScTemplate()
-        template.triple(
-            lexeme_addr,
-            [sc_types.EDGE_ACCESS_VAR_POS_PERM, ScAlias.ACCESS_EDGE.value],
-            [sc_types.LINK_VAR, ScAlias.LINK.value],
-        )
-        results = client.template_search(template)
-        if len(results) == 0:
-            link_addr = generate_link(lexeme)
-            edge = generate_edge(lexeme_addr, link_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
-        else:
-            link_addr = results[0].get(ScAlias.LINK.value)
-            edge = results[0].get(ScAlias.ACCESS_EDGE.value)
+    def _resolve_lexeme_form(self, lexeme_addr: ScAddr, lexeme: str) -> Tuple[ScAddr, ScAddr]:
+        form_addr = generate_link(lexeme)
+        edge = generate_edge(lexeme_addr, form_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
 
-        return link_addr, edge
+        return form_addr, edge

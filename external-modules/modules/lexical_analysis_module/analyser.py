@@ -42,7 +42,6 @@ class LexicalAnalyser:
                 base_form, is_plural = self.lemmatize_lexeme(lexeme, pos)
                 logger.info("Lemmatize lexeme \"" + lexeme + "\"")
 
-                base_form_signs = []
                 if base_form is not None:
                     _, base_form_tag = nltk.pos_tag([base_form])[0]
                     base_form_signs = speech_parts.get(base_form_tag)
@@ -60,7 +59,6 @@ class LexicalAnalyser:
         self._tokens = nltk.word_tokenize(text)
         self._tags = nltk.pos_tag(self._tokens)
 
-        print(self._tags)
         return self._tags
 
     def lemmatize_lexeme(self, lexeme: str, pos: str) -> Tuple[str, bool]:
