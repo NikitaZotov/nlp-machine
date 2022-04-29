@@ -1,0 +1,8 @@
+action_deactivated <- sc_node_not_relation;;
+action_morphological_analysis <- sc_node_not_relation;;
+
+action_lexical_analysis_agent <- sc_node_not_relation;;
+action_lexical_grammar_analysis_agent <- sc_node_not_relation;;
+action_sentences_analysis_agent <- sc_node_not_relation;;
+action_syntactic_analysis_agent <- sc_node_not_relation;;
+action_semantic_analysis_agent <- sc_node_not_relation;;

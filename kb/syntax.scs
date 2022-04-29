@@ -1,0 +1,59 @@
+nrel_syntactic_structure
+<- sc_node_norole_relation;
+=> nrel_main_idtf: [syntactic structure*] (* <- lang_en;; *);;
+
+rrel_simple_declarative_clause
+<- sc_node_norole_relation;
+=> nrel_main_idtf: [simple declarative clause'] (* <- lang_en;; *);;
+
+rrel_noun_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [noun phrase'] (* <- lang_en;; *);;
+
+rrel_verb_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [verb phrase'] (* <- lang_en;; *);;
+
+rrel_adverb_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [adverb phrase'] (* <- lang_en;; *);;
+
+rrel_prepositional_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [prepositional phrase'] (* <- lang_en;; *);;
+
+rrel_adjective_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [adjective phrase'] (* <- lang_en;; *);;
+
+rrel_subordinate_clause
+<- sc_node_role_relation;
+=> nrel_main_idtf: [subordinate phrase'] (* <- lang_en;; *);;
+
+rrel_direct_question_introduced_by_wh_element
+<- sc_node_role_relation;
+=> nrel_main_idtf: [direct question introduced by wh-element'] (* <- lang_en;; *);;
+
+rrel_declarative_sentence_with_subject_aux_inversion
+<- sc_node_role_relation;
+=> nrel_main_idtf: [declarative sentence with subject-aux inversion'] (* <- lang_en;; *);;
+
+rrel_yes_or_no_question
+<- sc_node_role_relation;
+=> nrel_main_idtf: [yes or no question'] (* <- lang_en;; *);;
+
+rrel_wh_adverb_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [wh-adverb phrase'] (* <- lang_en;; *);;
+
+rrel_wh_noun_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [wh-noun phrase'] (* <- lang_en;; *);;
+
+rrel_wh_prepositional_phrase
+<- sc_node_role_relation;
+=> nrel_main_idtf: [wh-prepositional phrase'] (* <- lang_en;; *);;
+
+nrel_semantic_structure
+<- sc_node_norole_relation;
+=> nrel_main_idtf: [semantic structure*] (* <- lang_en;; *);;
