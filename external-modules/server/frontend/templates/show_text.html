@@ -1,5 +1,29 @@
 {% extends 'base.html' %}
+{% include 'header.html' %}
 
-{% block content %}
-{{text}}
+{% block body %}
+<div style="padding-top: 50px">
+    <h2><b>Text "{{article}}":</b></h2>
+</div>
+
+<div style="padding-top: 20px">
+    <h3>{{text}}</h3>
+</div>
+
+<div style="padding-top: 20px">
+</div>
+
+<div style="padding-top: 20px">
+    <h2><b>Text analysis and synthesizing tools:</b></h2>
+</div>
+
+<div style="padding-top: 25px">
+    <ul>
+        <li><h3><a href="{{url}}/output/{{article}}/lexemes_table">Show text lexemes table</a></h3></li>
+        <li><h3><a href="{{url}}/output/{{article}}/lexical_structure">Show text lexical structure</a></h3></li>
+        <li><h3><a href="{{url}}/output/{{article}}/syntactic_structure">Show text syntactic structure</a></h3></li>
+        <li><h3><a href="{{url}}/output/{{article}}/semantic_structure">Show text semantic structure</a></h3></li>
+        <li><h3><a href="{{url}}/input">Input new text</a></h3></li>
+    </ul>
+</div>
 {% endblock %}

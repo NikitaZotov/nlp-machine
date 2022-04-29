@@ -10,7 +10,7 @@ from json_client.dataclass import ScTemplate, ScAddr
 from json_client.sc_agent import ScKeynodes
 from log import get_default_logger
 from modules.common.constants import ScAlias
-from modules.common.generator import generate_edge, generate_node, generate_link, wrap_in_set
+from modules.common.generator import generate_edge, generate_node, generate_link, wrap_in_set, generate_binary_relation
 from modules.common.identifiers import CommonIdentifiers
 from modules.common.searcher import get_edge
 from modules.sentence_analysis_module.constants import Identifiers
@@ -30,19 +30,13 @@ class SentenceSynthesizer:
         self.nrel_sequence_in_linear_text = self._keynodes.__getitem__(
             Identifiers.NREL_SEQUENCE_IN_LINEAR_TEXT.value, sc_types.NODE_CONST_NOROLE
         )
-        self.concept_lexical_structure = self._keynodes.__getitem__(
-            Identifiers.CONCEPT_LEXICAL_STRUCTURE.value, sc_types.NODE_CONST_CLASS
-        )
+        self.nrel_lexical_structure = self._keynodes[Identifiers.NREL_LEXICAL_STRUCTURE.value]
         self._lexeme_prefix = 'l_'
         self._puncts = [',', '.', '!', '?', ';', '-', ':']
 
     def synthesize(self, forms_lexemes: Dict[str, str], text_link_addr: ScAddr) -> ScAddr:
-        struct_addr = self._find_text_lexical_structure(text_link_addr)
-        if struct_addr.is_valid():
-            return struct_addr
-
         struct_addr = generate_node(sc_types.NODE_CONST_STRUCT)
-        generate_edge(self.concept_lexical_structure, struct_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM)
+        generate_binary_relation(text_link_addr, sc_types.EDGE_D_COMMON_CONST, struct_addr, self.nrel_lexical_structure)
 
         decomposition_addr = self._generate_text_decomposition_tuple(text_link_addr, struct_addr)
 

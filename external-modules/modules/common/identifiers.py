@@ -9,6 +9,8 @@ class ActionIdentifiers(Enum):
     ACTION_LEXICAL_ANALYSIS_AGENT = "action_lexical_analysis_agent"
     ACTION_LEXICAL_GRAMMAR_ANALYSIS_AGENT = "action_lexical_grammar_analysis_agent"
     ACTION_SENTENCES_ANALYSIS_AGENT = "action_sentences_analysis_agent"
+    ACTION_SYNTACTIC_ANALYSIS_AGENT = "action_syntactic_analysis_agent"
+    ACTION_SEMANTIC_ANALYSIS_AGENT = "action_semantic_analysis_agent"
 
 
 class CommonIdentifiers(Enum):

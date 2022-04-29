@@ -29,7 +29,11 @@ class NLPService:
         self._keynodes = ScKeynodes()
         self._translator = LexemeTranslator()
 
-    def analyse_text_lexemes(self, text: str, text_article: str) -> bool:
+    def add_text_instance(self, text: str, text_article: str) -> bool:
+        text_link_addr = self._get_text_link_by_article(text_article)
+        if text_link_addr.is_valid():
+            return False
+
         text_link_addr = generate_link(text)
 
         text_addr = generate_node(sc_types.NODE_CONST)
@@ -49,14 +53,7 @@ class NLPService:
             self._keynodes[CommonIdentifiers.LANG_EN.value], text_link_addr, sc_types.EDGE_ACCESS_CONST_POS_PERM
         )
 
-        _, result = complete_agent(
-            {text_link_addr: False},
-            [ActionIdentifiers.ACTION_LEXICAL_GRAMMAR_ANALYSIS_AGENT.value, CommonIdentifiers.QUESTION.value],
-            reaction=QuestionStatus.QUESTION_FINISHED_SUCCESSFULLY,
-            wait_time=10
-        )
-
-        return result
+        return True
 
     def resolve_lexemes(self, text_article: str) -> Dict[str, Dict[str, str]]:
         text_link_addr = self._get_text_link_by_article(text_article)
@@ -138,19 +135,34 @@ class NLPService:
 
         return ""
 
+    def analyse_text_lexical_structure(self, text_link_addr: ScAddr) -> bool:
+        _, result = complete_agent(
+            {text_link_addr: False},
+            [ActionIdentifiers.ACTION_LEXICAL_GRAMMAR_ANALYSIS_AGENT.value, CommonIdentifiers.QUESTION.value],
+            reaction=QuestionStatus.QUESTION_FINISHED_SUCCESSFULLY,
+            wait_time=10
+        )
+
+        return result
+
     def get_text_lexical_structure(self, text_article: str) -> ScAddr:
         text_link_addr = self._get_text_link_by_article(text_article)
+        if not text_link_addr.is_valid():
+            return ScAddr(0)
 
         template = ScTemplate()
-        template.triple(
+        template.triple_with_relation(
+            text_link_addr,
+            sc_types.EDGE_D_COMMON_VAR,
             [sc_types.NODE_VAR_STRUCT, ScAlias.NODE.value],
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            text_link_addr
+            self._keynodes[Identifiers.NREL_LEXICAL_STRUCTURE.value]
         )
         result = client.template_search(template)
 
         if len(result) == 0:
-            return ScAddr(0)
+            self.analyse_text_lexical_structure(text_link_addr)
+            return self.get_text_lexical_structure(text_article)
 
         return result[0].get(ScAlias.NODE.value)
 
@@ -167,3 +179,65 @@ class NLPService:
             link = next_link
 
         return links
+
+    def analyse_text_syntactic_structure(self, text_link_addr: ScAddr) -> bool:
+        _, result = complete_agent(
+            {text_link_addr: False},
+            [ActionIdentifiers.ACTION_SYNTACTIC_ANALYSIS_AGENT.value, CommonIdentifiers.QUESTION.value],
+            reaction=QuestionStatus.QUESTION_FINISHED_SUCCESSFULLY,
+            wait_time=10
+        )
+
+        return result
+
+    def get_text_syntactic_structure(self, text_article: str) -> ScAddr:
+        text_link_addr = self._get_text_link_by_article(text_article)
+        if not text_link_addr.is_valid():
+            return ScAddr(0)
+
+        template = ScTemplate()
+        template.triple_with_relation(
+            text_link_addr,
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.NODE_VAR_STRUCT, ScAlias.NODE.value],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes[Identifiers.NREL_SYNTACTIC_STRUCTURE.value]
+        )
+        result = client.template_search(template)
+
+        if len(result) == 0:
+            self.analyse_text_syntactic_structure(text_link_addr)
+            return self.get_text_syntactic_structure(text_article)
+
+        return result[0].get(ScAlias.NODE.value)
+
+    def analyse_text_semantic_structure(self, text_link_addr: ScAddr) -> bool:
+        _, result = complete_agent(
+            {text_link_addr: False},
+            [ActionIdentifiers.ACTION_SEMANTIC_ANALYSIS_AGENT.value, CommonIdentifiers.QUESTION.value],
+            reaction=QuestionStatus.QUESTION_FINISHED_SUCCESSFULLY,
+            wait_time=10
+        )
+
+        return result
+
+    def get_text_semantic_structure(self, text_article: str) -> ScAddr:
+        text_link_addr = self._get_text_link_by_article(text_article)
+        if not text_link_addr.is_valid():
+            return ScAddr(0)
+
+        template = ScTemplate()
+        template.triple_with_relation(
+            text_link_addr,
+            sc_types.EDGE_D_COMMON_VAR,
+            [sc_types.NODE_VAR_STRUCT, ScAlias.NODE.value],
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            self._keynodes[Identifiers.NREL_SEMANTIC_STRUCTURE.value]
+        )
+        result = client.template_search(template)
+
+        if len(result) == 0:
+            self.analyse_text_semantic_structure(text_link_addr)
+            return self.get_text_semantic_structure(text_article)
+
+        return result[0].get(ScAlias.NODE.value)

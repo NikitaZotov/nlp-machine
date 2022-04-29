@@ -91,7 +91,7 @@ def get_element_by_main_idtf(idtf: str) -> ScAddr:
 
     template = ScTemplate()
     template.triple_with_relation(
-        [sc_types.NODE_VAR, ScAlias.NODE.value],
+        [sc_types.UNKNOWN, ScAlias.NODE.value],
         sc_types.EDGE_D_COMMON_VAR,
         links[0],
         sc_types.EDGE_ACCESS_VAR_POS_PERM,

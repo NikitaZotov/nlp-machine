@@ -5,6 +5,8 @@
 
 speech_parts = {
     'CD': ['concept_digit', 'concept_cardinal_digit'],
+    'CC': ['concept_coordinating_conjunction'],
+    'TO': ['concept_to_conjunction'],
     'DT': ['concept_determiner'],
     'EX': ['concept_existential_there'],
     'FW': ['concept_foreign_word'],
