@@ -17,13 +17,56 @@
     <h2><b>Text analysis and synthesizing tools:</b></h2>
 </div>
 
-<div style="padding-top: 25px">
+<div style="padding-top: 25px" align="justify">
     <ul>
-        <li><h3><a href="{{url}}/output/{{article}}/lexemes_table">Show text lexemes table</a></h3></li>
-        <li><h3><a href="{{url}}/output/{{article}}/lexical_structure">Show text lexical structure</a></h3></li>
-        <li><h3><a href="{{url}}/output/{{article}}/syntactic_structure">Show text syntactic structure</a></h3></li>
-        <li><h3><a href="{{url}}/output/{{article}}/semantic_structure">Show text semantic structure</a></h3></li>
-        <li><h3><a href="{{url}}/input">Input new text</a></h3></li>
+        <li>
+            <h3>
+                <a href="{{url}}/output/{{article}}/lexemes_table">Show text lexemes table</a>
+            </h3>
+            <h3>
+                An utility allows to represent and process concrete text lexemes in the table, where columns are their attributes
+                and count forms, but rows are concrete lexemes. The application module provides CRUD operations on
+                lexemes objects: it allows to generate new ones, update and remove old ones.
+            </h3>
+        </li>
+        <li>
+            <h3>
+                <a href="{{url}}/output/{{article}}/lexical_structure">Show text lexical structure</a>
+            </h3>
+            <h3>
+                A text lexical structure is a structure that describes the text as a decomposition of words and
+                phrases ordered relative to each other in the order, in which they are located in the text, in accordance
+                with which lexemes are put with their morphological paradigms and attributes.
+            </h3>
+        </li>
+        <li>
+            <h3>
+                <a href="{{url}}/output/{{article}}/syntactic_structure">Show text syntactic structure</a>
+            </h3>
+            <h3>
+                A text syntactic structure is a structure that describes the text as a component system the internal
+                nodes of which are word combinations, and the leaves are specific words, while each partition of the
+                parent node under a certain syntactic role has a child node, in accordance with which lexemes are
+                set with their paradigms and attributes.
+            </h3>
+        </li>
+        <li>
+            <h3>
+                <a href="{{url}}/output/{{article}}/semantic_structure">Show text semantic structure</a>
+            </h3>
+            <h3>
+                A text semantic structure is a structure that describes the text as a graph dependencies of its lexemes,
+                which are linked with other lexemes with semantic relations.
+            </h3>
+        </li>
+        <li>
+            <h3>
+                <a href="{{url}}/input">Process new text</a>
+            </h3>
+            <h3>
+                It is a standard input tool, that allows to input new text and process it with other tools.
+            </h3>
+        </li>
     </ul>
 </div>
 {% endblock %}

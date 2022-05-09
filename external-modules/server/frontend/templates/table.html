@@ -9,8 +9,7 @@
     <div class="row">
         <div class="col md-12">
             <div class="jumbotron p-3">
-                <h2>Manage text lexemes <button type="button" class="btn btn-success float-right"
-                                                 data-toggle="modal" data-target="#mymodal">Generate lexeme</button> </h2>
+                <h2><a href="{{url}}/output/{{article}}">Text "{{article}}"</a> lexemes</h2>
 
                 {% with messages = get_flashed_messages() %}
 
@@ -70,44 +69,9 @@
                             --
                             {% endif %}
                         </td>
-                        <td>
-                            <a href="/delete/{{lexeme}}" class="btn btn-danger btn-xs" onclick="return confirm('Are You Sure To Delete ?')">Delete</a>
-                        </td>
                     </tr>
                     {% endfor %}
                 </table>
-            </div>
-
-            <div id="mymodal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Add lexeme form</h4>
-                        </div>
-                        <div class="modal-body">
-                            <form action="{{url_for('insert')}}" method="POST">
-                                <div class="form-group">
-                                    <label>Lexeme form:</label>
-                                    <input type="text" class="form-control" name="form" required="1">
-                                </div>
-                                <div class="form-group">
-                                    <label>Singular|plural:</label>
-                                    <input type="text" class="form-control" name="count" required="1">
-                                </div>
-                                <div class="form-group">
-                                    <label>Attribute (speech of part):</label>
-                                    <input type="text" class="form-control" name="attribute" required="1">
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-primary" type="submit">Generate lexeme</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

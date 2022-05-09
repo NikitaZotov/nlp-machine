@@ -22,7 +22,7 @@ class SemanticSynthesizer:
         )
 
     def synthesize(self, graph: Any, text_link_addr: ScAddr) -> ScAddr:
-        logger.info(f"Synthesize syntactic tree")
+        logger.info(f"Synthesize semantic tree")
 
         struct_addr = generate_node(sc_types.NODE_CONST_STRUCT)
         generate_binary_relation(

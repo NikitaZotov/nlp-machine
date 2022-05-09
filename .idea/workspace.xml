@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="sc-machine" targetName="make_lib_output_dir" />
+      <config projectName="sc-machine" targetName="sc-ui" />
+      <config projectName="sc-machine" targetName="NightlyMemoryCheck" />
+      <config projectName="sc-machine" targetName="sc-python" />
+      <config projectName="sc-machine" targetName="NightlyStart" />
+      <config projectName="sc-machine" targetName="sc-builder-lib-GenerateCode" />
+      <config projectName="sc-machine" targetName="sc-agents-common" />
+      <config projectName="sc-machine" targetName="ContinuousTest" />
+      <config projectName="sc-machine" targetName="ContinuousSubmit" />
+      <config projectName="sc-machine" targetName="ExperimentalConfigure" />
+      <config projectName="sc-machine" targetName="ExperimentalCoverage" />
+      <config projectName="sc-machine" targetName="ExperimentalBuild" />
+      <config projectName="sc-machine" targetName="ContinuousMemCheck" />
+      <config projectName="sc-machine" targetName="sctp-server" />
+      <config projectName="sc-machine" targetName="sc-code-generator" />
+      <config projectName="sc-machine" targetName="SCsParser" />
+      <config projectName="sc-machine" targetName="ExperimentalStart" />
+      <config projectName="sc-machine" targetName="sc-utils" />
+      <config projectName="sc-machine" targetName="Continuous" />
+      <config projectName="sc-machine" targetName="ContinuousConfigure" />
+      <config projectName="sc-machine" targetName="Nightly" />
+      <config projectName="sc-machine" targetName="NightlySubmit" />
+      <config projectName="sc-machine" targetName="ExperimentalSubmit" />
+      <config projectName="sc-machine" targetName="NightlyCoverage" />
+      <config projectName="sc-machine" targetName="Experimental" />
+      <config projectName="sc-machine" targetName="sc-builder-lib" />
+      <config projectName="sc-machine" targetName="sc-server" />
+      <config projectName="sc-machine" targetName="NightlyBuild" />
+      <config projectName="sc-machine" targetName="sc-memory" />
+      <config projectName="sc-machine" targetName="sc-kpm" />
+      <config projectName="sc-machine" targetName="NightlyTest" />
+      <config projectName="sc-machine" targetName="ContinuousCoverage" />
+      <config projectName="sc-machine" targetName="antlr4_static" />
+      <config projectName="sc-machine" targetName="sc-core" />
+      <config projectName="sc-machine" targetName="sc-agents-common-GenerateCode" />
+      <config projectName="sc-machine" targetName="ExperimentalTest" />
+      <config projectName="sc-machine" targetName="NightlyUpdate" />
+      <config projectName="sc-machine" targetName="sc-memory-GenerateCode" />
+      <config projectName="sc-machine" targetName="ExperimentalUpdate" />
+      <config projectName="sc-machine" targetName="sc-kpm-common" />
+      <config projectName="sc-machine" targetName="sc-python-GenerateCode" />
+      <config projectName="sc-machine" targetName="sc-search" />
+      <config projectName="sc-machine" targetName="ContinuousStart" />
+      <config projectName="sc-machine" targetName="ContinuousBuild" />
+      <config projectName="sc-machine" targetName="NightlyConfigure" />
+      <config projectName="sc-machine" targetName="ExperimentalMemCheck" />
+      <config projectName="sc-machine" targetName="NightlyMemCheck" />
+      <config projectName="sc-machine" targetName="ContinuousUpdate" />
+      <config projectName="sc-machine" targetName="sc-builder" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dced8fe-6af4-4101-b1d9-2d9e5768cbca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/modules/semantic_analysis_module/synthesizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/modules/semantic_analysis_module/synthesizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/show_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/show_text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb/morhology.scs" beforeDir="false" afterPath="$PROJECT_DIR$/kb/morphology.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ostis-web-platform/config/sc-web.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ostis-web-platform/config/sc-web.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/knowledge_base_IMS.scs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb/lib_ui_menu_na_view_kb.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb/lib_ui_menu_na_view_kb.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb/ui_menu_na_view_kb.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_base/lib_ui_menu_na_view_kb_base.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_base/lib_ui_menu_na_view_kb_base.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_base/ui_menu_na_view_kb_base.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_extended/lib_ui_menu_na_view_kb_extended.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_extended/lib_ui_menu_na_view_kb_extended.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_extended/ui_menu_na_view_kb_extended.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_identifiers/lib_ui_menu_na_view_kb_identifiers.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_identifiers/lib_ui_menu_na_view_kb_identifiers.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_identifiers/ui_menu_na_view_kb_identifiers.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_pattern/lib_ui_menu_na_view_kb_pattern.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_pattern/lib_ui_menu_na_view_kb_pattern.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_pattern/ui_menu_na_view_kb_pattern.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_semantic_square/lib_ui_menu_na_view_kb_semantic_square.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_semantic_square/lib_ui_menu_na_view_kb_semantic_square.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_semantic_square/ui_menu_na_view_kb_semantic_square.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_structure/lib_ui_menu_na_view_kb_structure.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_structure/lib_ui_menu_na_view_kb_structure.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_structure/ui_menu_na_view_kb_structure.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_definitions_with_context/lib_component_ui_menu_file_for_finding_definitions_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_definitions_with_context/lib_component_ui_menu_file_for_finding_definitions_with_context.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_definitions_with_context/ui_menu_file_for_finding_definitions_with_context.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_examples_with_context/lib_component_ui_menu_file_for_finding_examples_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_examples_with_context/lib_component_ui_menu_file_for_finding_examples_with_context.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_examples_with_context/ui_menu_file_for_finding_examples_with_context.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_key_concepts_with_context/lib_component_ui_menu_file_for_finding_key_concepts_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_key_concepts_with_context/lib_component_ui_menu_file_for_finding_key_concepts_with_context.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_key_concepts_with_context/ui_menu_file_for_finding_key_concepts_with_context.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_pattern_with_context/lib_component_ui_menu_file_for_finding_pattern_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_pattern_with_context/lib_component_ui_menu_file_for_finding_pattern_with_context.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_pattern_with_context/ui_menu_file_for_finding_pattern_with_context.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_theorems_with_context/lib_component_ui_menu_file_for_finding_theorems.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_theorems_with_context/lib_component_ui_menu_file_for_finding_theorems.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_theorems_with_context/ui_menu_file_for_finding_theorems_with_context.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_identifiers/lib_component_ui_menu_view_all_identifiers.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_identifiers/lib_component_ui_menu_view_all_identifiers.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_identifiers/ui_menu_view_all_identifiers.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc/lib_component_ui_menu_view_all_input_const_pos_arc.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc/lib_component_ui_menu_view_all_input_const_pos_arc.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc/ui_menu_view_all_input_const_pos_arc.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc_with_rel/lib_component_ui_menu_view_all_input_const_pos_arc_with_rel.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc_with_rel/lib_component_ui_menu_view_all_input_const_pos_arc_with_rel.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc_with_rel/ui_menu_view_all_input_const_pos_arc_with_rel.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc/lib_component_ui_menu_view_all_output_const_pos_arc.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc/lib_component_ui_menu_view_all_output_const_pos_arc.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc/ui_menu_view_all_output_const_pos_arc.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc_with_rel/lib_component_ui_menu_view_all_output_const_pos_arc_with_rel.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc_with_rel/lib_component_ui_menu_view_all_output_const_pos_arc_with_rel.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc_with_rel/ui_menu_view_all_output_const_pos_arc_with_rel.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_subclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_subclasses_in_quasybinary_relation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_subclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_subclasses_in_quasybinary_relation.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_subclasses_in_quasybinary_relation/ui_menu_view_all_subclasses_in_quasybinary_relation.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_superclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_superclasses_in_quasybinary_relation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_superclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_superclasses_in_quasybinary_relation.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_superclasses_in_quasybinary_relation/ui_menu_view_all_superclasses_in_quasybinary_relation.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_annotation/lib_component_ui_menu_file_for_finding_annotation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_annotation/lib_component_ui_menu_file_for_finding_annotation.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_annotation/ui_menu_file_for_finding_annotation.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_authors/lib_component_ui_menu_view_authors.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_authors/lib_component_ui_menu_view_authors.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_authors/ui_menu_view_authors.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_axioms/lib_component_ui_menu_file_for_finding_axioms.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_axioms/lib_component_ui_menu_file_for_finding_axioms.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_axioms/ui_menu_file_for_finding_axioms.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_connections/lib_component_ui_menu_file_for_finding_connections.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_connections/lib_component_ui_menu_file_for_finding_connections.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_connections/ui_menu_file_for_finding_connections.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_constants/lib_component_ui_menu_file_for_finding_constants.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_constants/lib_component_ui_menu_file_for_finding_constants.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_constants/ui_menu_file_for_finding_constants.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_decomposition/lib_component_ui_menu_view_decomposition.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_decomposition/lib_component_ui_menu_view_decomposition.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_decomposition/ui_menu_view_decomposition.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitional_domain/lib_component_ui_menu_file_for_finding_definitional_domain.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitional_domain/lib_component_ui_menu_file_for_finding_definitional_domain.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitional_domain/ui_menu_file_for_finding_definitional_domain.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitions/lib_component_ui_menu_file_for_finding_definitions.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitions/lib_component_ui_menu_file_for_finding_definitions.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitions/ui_menu_file_for_finding_definitions.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_examples/lib_component_ui_menu_file_for_finding_examples.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_examples/lib_component_ui_menu_file_for_finding_examples.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_examples/ui_menu_file_for_finding_examples.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_formal_statement/lib_component_ui_menu_file_for_finding_formal_statement.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_formal_statement/lib_component_ui_menu_file_for_finding_formal_statement.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_formal_statement/ui_menu_file_for_finding_formal_statement.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_full_semantic_square/lib_component_ui_menu_view_full_semantic_square.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_full_semantic_square/lib_component_ui_menu_view_full_semantic_square.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_full_semantic_square/ui_menu_view_full_semantic_square.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_illustrations/lib_component_ui_menu_file_for_finding_illustrations.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_illustrations/lib_component_ui_menu_file_for_finding_illustrations.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_illustrations/ui_menu_file_for_finding_illustrations.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_key_concepts/lib_component_ui_menu_file_for_finding_key_concepts.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_key_concepts/lib_component_ui_menu_file_for_finding_key_concepts.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_key_concepts/ui_menu_file_for_finding_key_concepts.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_links_of_relation_connected_with_element/lib_component_ui_menu_view_links_of_relation_connected_with_element.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_links_of_relation_connected_with_element/lib_component_ui_menu_view_links_of_relation_connected_with_element.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_links_of_relation_connected_with_element/ui_menu_view_links_of_relation_connected_with_element.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_main_concept/lib_component_ui_menu_file_for_finding_main_concept.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_main_concept/lib_component_ui_menu_file_for_finding_main_concept.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_main_concept/ui_menu_file_for_finding_main_concept.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_pattern/lib_component_ui_menu_file_for_finding_pattern.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_pattern/lib_component_ui_menu_file_for_finding_pattern.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_pattern/ui_menu_file_for_finding_pattern.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof/lib_component_ui_menu_file_for_finding_proof.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof/lib_component_ui_menu_file_for_finding_proof.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof/ui_menu_file_for_finding_proof.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof_steps/lib_component_ui_menu_file_for_finding_proof_steps.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof_steps/lib_component_ui_menu_file_for_finding_proof_steps.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof_steps/ui_menu_file_for_finding_proof_steps.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_relation/lib_component_ui_menu_file_for_finding_relation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_relation/lib_component_ui_menu_file_for_finding_relation.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_relation/ui_menu_file_for_finding_relation.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_solution/lib_component_ui_menu_file_for_finding_solution.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_solution/lib_component_ui_menu_file_for_finding_solution.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_solution/ui_menu_file_for_finding_solution.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_statements/lib_component_ui_menu_file_for_finding_statements.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_statements/lib_component_ui_menu_file_for_finding_statements.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_statements/ui_menu_file_for_finding_statements.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_theorems/lib_component_ui_menu_file_for_finding_theorems.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_theorems/lib_component_ui_menu_file_for_finding_theorems.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_theorems/ui_menu_file_for_finding_theorems.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_translation/lib_component_ui_menu_view_translation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_translation/lib_component_ui_menu_view_translation.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_translation/ui_menu_view_translation.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_actions_and_tasks/section_subjdomain_actions_and_tasks.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_actions_and_tasks/section_subjdomain_actions_and_tasks.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_actions_and_tasks/section_subjdomain_actions_and_tasks.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_entities/section_subjdomain_entities.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_entities/section_subjdomain_entities.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_entities/section_subjdomain_entities.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_informational_structures_not_sc_code/section_subjdomain_informational_structures_not_sc_code.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_informational_structures_not_sc_code/section_subjdomain_informational_structures_not_sc_code.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_informational_structures_not_sc_code/section_subjdomain_informational_structures_not_sc_code.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_ligaments_relations/section_subjdomain_ligaments_relations.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_ligaments_relations/section_subjdomain_ligaments_relations.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_ligaments_relations/section_subjdomain_ligaments_relations.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_numbers_and_numeric_structures/section_subjdomain_numbers_and_numeric_structures.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_numbers_and_numeric_structures/section_subjdomain_numbers_and_numeric_structures.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_numbers_and_numeric_structures/subjdomain_numbers_and_numeric_structures.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_of_structures/section_subjdomain_of_structures.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_of_structures/section_subjdomain_of_structures.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_of_structures/section_subjdomain_of_structures.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_parameters_and_values/section_subjdomain_parameters_and_values.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_parameters_and_values/section_subjdomain_parameters_and_values.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_parameters_and_values/section_subjdomain_parameters_and_values.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_temporary_entities/section_subjdomain_temporary_entity.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_temporary_entities/section_subjdomain_temporary_entity.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_temporary_entities/section_subjdomain_temporary_entity.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sc_identifiers/section_subjdomain_sc_identifiers.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sc_identifiers/section_subjdomain_sc_identifiers.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sc_identifiers/section_subjdomain_sc_identifiers.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sets/section_subjdomain_sets.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sets/section_subjdomain_sets.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sets/section_subjdomain_sets.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_interdisciplinary_concepts/section_interdisciplinary_concepts.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_interdisciplinary_concepts/section_interdisciplinary_concepts.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_interdisciplinary_concepts/section_interdisciplinary_concepts.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_structure_of_knowledge_base_model/section_structure_of_knowledge_base_model.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_structure_of_knowledge_base_model/section_structure_of_knowledge_base_model.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_structure_of_knowledge_base_model/section_structure_of_knowledge_base_model.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_knowledges/section_subjdomain_knowledges.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_knowledges/section_subjdomain_knowledges.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_knowledges/section_subjdomain_knowledges.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_of_logical_formulas_and_logical_ontologies/section_subjdomain_of_logical_formulas_and_logical_ontologies.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_of_logical_formulas_and_logical_ontologies/section_subjdomain_of_logical_formulas_and_logical_ontologies.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_of_logical_formulas_and_logical_ontologies/subjdomain_of_logical_formulas_and_logical_ontologies.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_semantic_neighborhoods/section_subjdomain_of_semantic_neighborhoods.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_semantic_neighborhoods/section_subjdomain_of_semantic_neighborhoods.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_semantic_neighborhoods/section_subjdomain_of_semantic_neighborhoods.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_ontologies/section_subjdomain_of_ontologies.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_ontologies/section_subjdomain_of_ontologies.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_ontologies/section_subjdomain_of_ontologies.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_subject_domain/section_subjdomain_of_subject_domain.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_subject_domain/section_subjdomain_of_subject_domain.scs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_subject_domain/section_subjdomain_of_subject_domain.scsi" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27wVIrsI0SdLHcb8amTLPazkWoj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nikita/CLionProjects/ostis/nlp-module&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/external-modules/modules" />
+      <recent name="$PROJECT_DIR$/external-modules/server/frontend/templates" />
+      <recent name="$PROJECT_DIR$/external-modules/server/frontend/images" />
+      <recent name="$PROJECT_DIR$/external-modules/modules/syntactic_analysis_module" />
+      <recent name="$PROJECT_DIR$/external-modules/modules/common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/external-modules/modules" />
+      <recent name="$PROJECT_DIR$/external-modules/server/frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.__main__">
+    <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler />
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$USER_HOME$</main-file>
+        <aux-dir>$USER_HOME$</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SCsParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="SCsParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="antlr4_static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="antlr4_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="make_lib_output_dir" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="make_lib_output_dir" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-agents-common-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-agents-common-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-agents-common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-agents-common" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-builder-lib-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-builder-lib-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-builder-lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-builder-lib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-builder" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-builder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sc-builder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-code-generator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-code-generator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sc-code-generator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-core" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-kpm-common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-kpm-common" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-kpm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-kpm" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-memory-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-memory-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-memory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-memory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-python-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-python-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-python" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-python" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-search" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-search" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sc-server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-ui" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-ui" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-utils" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-utils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sctp-server" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/ostis-web-platform/config/sc-web.ini" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/ostis-web-platform/sc-machine" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sctp-server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sctp-server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="EXTERNAL_TOOL_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-external>
+        <program>PYTHONTEX</program>
+        <main-file />
+        <work-dir />
+      </texify-external>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>EVINCE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <main-file />
+        <output-path>{projectDir}/out</output-path>
+        <auxil-path>{projectDir}/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>TEXLIVE</latex-distribution>
+        <has-been-run>false</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-makeindex>
+        <program>MAKEINDEX</program>
+        <main-file />
+        <work-dir />
+      </texify-makeindex>
+      <method v="2" />
+    </configuration>
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nlp-module" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/external-modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/external-modules/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nlp-module" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/external-modules/server/frontend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/external-modules/server/frontend/routes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.SemanticAnalysisTest.test_analyse_text" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="nlp-module" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/external-modules/modules/semantic_analysis_module/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.SemanticAnalysisTest.test_analyse_text&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.SyntacticAnalysisTest.test_analyse_text" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="nlp-module" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/external-modules/modules/syntactic_analysis_module/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.SyntacticAnalysisTest.test_analyse_text&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tests.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="nlp-module" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/external-modules/modules/syntactic_analysis_module/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/external-modules/modules/syntactic_analysis_module/test/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Continuous" />
+      <item itemvalue="CMake Application.ContinuousBuild" />
+      <item itemvalue="CMake Application.ContinuousConfigure" />
+      <item itemvalue="CMake Application.ContinuousCoverage" />
+      <item itemvalue="CMake Application.ContinuousMemCheck" />
+      <item itemvalue="CMake Application.ContinuousStart" />
+      <item itemvalue="CMake Application.ContinuousSubmit" />
+      <item itemvalue="CMake Application.ContinuousTest" />
+      <item itemvalue="CMake Application.ContinuousUpdate" />
+      <item itemvalue="CMake Application.Experimental" />
+      <item itemvalue="CMake Application.ExperimentalBuild" />
+      <item itemvalue="CMake Application.ExperimentalConfigure" />
+      <item itemvalue="CMake Application.ExperimentalCoverage" />
+      <item itemvalue="CMake Application.ExperimentalMemCheck" />
+      <item itemvalue="CMake Application.ExperimentalStart" />
+      <item itemvalue="CMake Application.ExperimentalSubmit" />
+      <item itemvalue="CMake Application.ExperimentalTest" />
+      <item itemvalue="CMake Application.ExperimentalUpdate" />
+      <item itemvalue="CMake Application.Nightly" />
+      <item itemvalue="CMake Application.NightlyBuild" />
+      <item itemvalue="CMake Application.NightlyConfigure" />
+      <item itemvalue="CMake Application.NightlyCoverage" />
+      <item itemvalue="CMake Application.NightlyMemCheck" />
+      <item itemvalue="CMake Application.NightlyMemoryCheck" />
+      <item itemvalue="CMake Application.NightlyStart" />
+      <item itemvalue="CMake Application.NightlySubmit" />
+      <item itemvalue="CMake Application.NightlyTest" />
+      <item itemvalue="CMake Application.NightlyUpdate" />
+      <item itemvalue="CMake Application.sc-kpm" />
+      <item itemvalue="CMake Application.sc-agents-common" />
+      <item itemvalue="CMake Application.sc-agents-common-GenerateCode" />
+      <item itemvalue="CMake Application.sc-kpm-common" />
+      <item itemvalue="CMake Application.sc-python" />
+      <item itemvalue="CMake Application.sc-python-GenerateCode" />
+      <item itemvalue="CMake Application.sc-search" />
+      <item itemvalue="CMake Application.sc-ui" />
+      <item itemvalue="CMake Application.sc-utils" />
+      <item itemvalue="CMake Application.sc-core" />
+      <item itemvalue="CMake Application.sc-memory" />
+      <item itemvalue="CMake Application.sc-memory-GenerateCode" />
+      <item itemvalue="CMake Application.SCsParser" />
+      <item itemvalue="CMake Application.sctp-server" />
+      <item itemvalue="CMake Application.sc-server" />
+      <item itemvalue="CMake Application.antlr4_static" />
+      <item itemvalue="CMake Application.make_lib_output_dir" />
+      <item itemvalue="CMake Application.sc-builder" />
+      <item itemvalue="CMake Application.sc-builder-lib" />
+      <item itemvalue="CMake Application.sc-builder-lib-GenerateCode" />
+      <item itemvalue="CMake Application.sc-code-generator" />
+      <item itemvalue="Python.routes" />
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python tests.Python tests for tests.SemanticAnalysisTest.test_analyse_text" />
+      <item itemvalue="Python tests.Python tests for tests.SyntacticAnalysisTest.test_analyse_text" />
+      <item itemvalue="Python tests.Python tests in tests.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__main__" />
+        <item itemvalue="Python.routes" />
+        <item itemvalue="Python tests.Python tests for tests.SemanticAnalysisTest.test_analyse_text" />
+        <item itemvalue="Python tests.Python tests for tests.SyntacticAnalysisTest.test_analyse_text" />
+        <item itemvalue="Python tests.Python tests in tests.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dced8fe-6af4-4101-b1d9-2d9e5768cbca" name="Changes" comment="" />
+      <created>1650231058865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650231058865</updated>
+      <workItem from="1650231060754" duration="5628000" />
+      <workItem from="1650236743078" duration="63000" />
+      <workItem from="1650236819054" duration="1556000" />
+      <workItem from="1650238386236" duration="2000" />
+      <workItem from="1650262957973" duration="1661000" />
+      <workItem from="1650350558950" duration="1989000" />
+      <workItem from="1650439914489" duration="1198000" />
+      <workItem from="1650445689963" duration="583000" />
+      <workItem from="1650447716260" duration="59000" />
+      <workItem from="1650447796335" duration="1234000" />
+      <workItem from="1650469938081" duration="24788000" />
+      <workItem from="1650563242814" duration="1102000" />
+      <workItem from="1650607918128" duration="4081000" />
+      <workItem from="1650633092939" duration="625000" />
+      <workItem from="1650779503304" duration="599000" />
+      <workItem from="1650795213447" duration="599000" />
+      <workItem from="1650867055703" duration="599000" />
+      <workItem from="1650951932644" duration="2000" />
+      <workItem from="1650951959851" duration="23000000" />
+      <workItem from="1650992893820" duration="2171000" />
+      <workItem from="1651002235384" duration="10250000" />
+      <workItem from="1651133990444" duration="47071000" />
+      <workItem from="1651504691714" duration="12383000" />
+      <workItem from="1651605337819" duration="5641000" />
+      <workItem from="1651656047399" duration="1170000" />
+      <workItem from="1651731958627" duration="18263000" />
+      <workItem from="1652002520301" duration="2000" />
+      <workItem from="1652002709095" duration="1481000" />
+      <workItem from="1652078475097" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

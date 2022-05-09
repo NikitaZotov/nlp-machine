@@ -1,5 +1,75 @@
 {% extends 'base.html' %}
+{% include 'header.html' %}
 
 {% block body %}
-<h1>{% block title %} NLP service {% endblock %}</h1>
+
+<div style="padding-top: 5px" align="justify">
+    <h4>
+        It is an applied service web-program based on OSTIS technology, named as NLP-service, for solving problems of
+        an automatic lexical, lexico-grammatical, syntactic and semantic analysis of natural language texts and
+        their saving.
+    </h4>
+</div>
+<div style="padding-top: 10px" align="justify">
+    <h4>
+        Used technologies and means in application:
+    </h4>
+</div>
+<div style="padding-top: 2px" align="justify">
+    <ul>
+        <li>
+            <h4>
+                Python and C++ languages as main programming languages to develop its application;
+            </h4>
+        </li>
+        <li>
+            <h4>
+                OSTIS Technology to store and represent natural language texts, and formal description of a linguistics
+                ontology;
+            </h4>
+        </li>
+        <li>
+            <h4>
+                NLTK resources to analyse lexical, lexico-grammatical, syntactic and semantic compositions of natural
+                language texts;
+            </h4>
+        </li>
+        <li>
+            <h4>
+                FLASK and Boostrap frameworks to represent information in a RESTful web-interface;
+            </h4>
+        </li>
+    </ul>
+</div>
+<div style="padding-top: 5px" align="justify">
+    <h4>
+        The application currently allows to solve next linguistics tasks:
+    </h4>
+</div>
+<div style="padding-top: 2px" align="justify">
+    <ol>
+        <li>
+            <h4>
+                <a href="{{url}}/input">Input natural language texts</a> and save their on knowledge base. Each text is
+                represented as a set, the translation of which is its text. To solve search tasks, text must have a title.
+            </h4>
+        </li>
+        <li>
+            <h4>
+                Analyse lexical and lexico-grammatical compositions of natural language texts that are accompanied
+                by its tokenizing, lemmatizing and tagging. As a result of text analysis, their lexical structures and
+                lexeme graphs are synthesized.
+            </h4>
+        </li>
+        <li>
+            <h4>
+                Represent concrete text lexemes and <a href="http://127.0.0.1:7050/kb/lexeme">all lexemes</a>, saving in
+                KB, in a form of table. A utility allows to represent and process all lexemes in the table,
+                where columns are their attributes and count forms, but rows are concrete lexemes. The application module
+                provides CRUD operations on lexemes objects: it allows to generate new ones, update and remove old ones.
+            </h4>
+        </li>
+    </ol>
+</div>
+
 {% endblock %}

@@ -5,14 +5,14 @@
 
 <form method="post">
     <div class="form-group">
-        <h3><label for="title">Input title </label></h3>
+        <h3><label for="title">Input text title (it is required)</label></h3>
         <input type="text" name="title"
                placeholder="Enter" class="form-control" id="title" required="1"
                value="{{ request.form['title'] }}">
     </div>
     <div class="form-group">
         <h3><label for="content">Input text in natural language</label></h3>
-        <textarea name="content" placeholder="Enter" rows="16"
+        <textarea name="content" placeholder="Enter" rows="14"
                   class="form-control" id="content">{{ request.form['content'] }}</textarea>
     </div>
     <div class="form-group">
@@ -21,9 +21,9 @@
 </form>
 
 <form method="POST" enctype="multipart/form-data">
-    <h3><label for="content">Or upload text file</label></h3>
+    <h3><label for="content">Or upload text file (formats: .pdf)</label></h3>
     <input type="file" name="file">
-    <div class="form-group">
+    <div class="form-group" style="padding-top: 5px">
         <button type="submit" class="btn btn-primary">Upload</button>
     </div>
 </form>
