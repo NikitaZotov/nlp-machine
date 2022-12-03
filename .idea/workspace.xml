@@ -60,139 +60,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dced8fe-6af4-4101-b1d9-2d9e5768cbca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/loggings/external-modules.log.5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/modules/semantic_analysis_module/synthesizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/modules/semantic_analysis_module/synthesizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/show_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/show_text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external-modules/server/frontend/templates/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/external-modules/server/frontend/templates/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb/morhology.scs" beforeDir="false" afterPath="$PROJECT_DIR$/kb/morphology.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ostis-web-platform/config/sc-web.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ostis-web-platform/config/sc-web.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/knowledge_base_IMS.scs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb/lib_ui_menu_na_view_kb.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb/lib_ui_menu_na_view_kb.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb/ui_menu_na_view_kb.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_base/lib_ui_menu_na_view_kb_base.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_base/lib_ui_menu_na_view_kb_base.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_base/ui_menu_na_view_kb_base.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_extended/lib_ui_menu_na_view_kb_extended.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_extended/lib_ui_menu_na_view_kb_extended.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_extended/ui_menu_na_view_kb_extended.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_identifiers/lib_ui_menu_na_view_kb_identifiers.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_identifiers/lib_ui_menu_na_view_kb_identifiers.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_identifiers/ui_menu_na_view_kb_identifiers.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_pattern/lib_ui_menu_na_view_kb_pattern.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_pattern/lib_ui_menu_na_view_kb_pattern.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_pattern/ui_menu_na_view_kb_pattern.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_semantic_square/lib_ui_menu_na_view_kb_semantic_square.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_semantic_square/lib_ui_menu_na_view_kb_semantic_square.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_semantic_square/ui_menu_na_view_kb_semantic_square.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_structure/lib_ui_menu_na_view_kb_structure.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_structure/lib_ui_menu_na_view_kb_structure.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/na_view_kb_structure/ui_menu_na_view_kb_structure.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_definitions_with_context/lib_component_ui_menu_file_for_finding_definitions_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_definitions_with_context/lib_component_ui_menu_file_for_finding_definitions_with_context.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_definitions_with_context/ui_menu_file_for_finding_definitions_with_context.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_examples_with_context/lib_component_ui_menu_file_for_finding_examples_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_examples_with_context/lib_component_ui_menu_file_for_finding_examples_with_context.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_examples_with_context/ui_menu_file_for_finding_examples_with_context.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_key_concepts_with_context/lib_component_ui_menu_file_for_finding_key_concepts_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_key_concepts_with_context/lib_component_ui_menu_file_for_finding_key_concepts_with_context.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_key_concepts_with_context/ui_menu_file_for_finding_key_concepts_with_context.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_pattern_with_context/lib_component_ui_menu_file_for_finding_pattern_with_context.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_pattern_with_context/lib_component_ui_menu_file_for_finding_pattern_with_context.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_pattern_with_context/ui_menu_file_for_finding_pattern_with_context.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_theorems_with_context/lib_component_ui_menu_file_for_finding_theorems.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_theorems_with_context/lib_component_ui_menu_file_for_finding_theorems.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/with_context/find_theorems_with_context/ui_menu_file_for_finding_theorems_with_context.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_identifiers/lib_component_ui_menu_view_all_identifiers.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_identifiers/lib_component_ui_menu_view_all_identifiers.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_identifiers/ui_menu_view_all_identifiers.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc/lib_component_ui_menu_view_all_input_const_pos_arc.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc/lib_component_ui_menu_view_all_input_const_pos_arc.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc/ui_menu_view_all_input_const_pos_arc.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc_with_rel/lib_component_ui_menu_view_all_input_const_pos_arc_with_rel.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc_with_rel/lib_component_ui_menu_view_all_input_const_pos_arc_with_rel.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_input_const_pos_arc_with_rel/ui_menu_view_all_input_const_pos_arc_with_rel.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc/lib_component_ui_menu_view_all_output_const_pos_arc.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc/lib_component_ui_menu_view_all_output_const_pos_arc.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc/ui_menu_view_all_output_const_pos_arc.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc_with_rel/lib_component_ui_menu_view_all_output_const_pos_arc_with_rel.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc_with_rel/lib_component_ui_menu_view_all_output_const_pos_arc_with_rel.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_output_const_pos_arc_with_rel/ui_menu_view_all_output_const_pos_arc_with_rel.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_subclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_subclasses_in_quasybinary_relation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_subclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_subclasses_in_quasybinary_relation.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_subclasses_in_quasybinary_relation/ui_menu_view_all_subclasses_in_quasybinary_relation.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_superclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_superclasses_in_quasybinary_relation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_superclasses_in_quasybinary_relation/lib_component_ui_menu_view_all_superclasses_in_quasybinary_relation.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_all_superclasses_in_quasybinary_relation/ui_menu_view_all_superclasses_in_quasybinary_relation.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_annotation/lib_component_ui_menu_file_for_finding_annotation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_annotation/lib_component_ui_menu_file_for_finding_annotation.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_annotation/ui_menu_file_for_finding_annotation.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_authors/lib_component_ui_menu_view_authors.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_authors/lib_component_ui_menu_view_authors.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_authors/ui_menu_view_authors.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_axioms/lib_component_ui_menu_file_for_finding_axioms.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_axioms/lib_component_ui_menu_file_for_finding_axioms.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_axioms/ui_menu_file_for_finding_axioms.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_connections/lib_component_ui_menu_file_for_finding_connections.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_connections/lib_component_ui_menu_file_for_finding_connections.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_connections/ui_menu_file_for_finding_connections.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_constants/lib_component_ui_menu_file_for_finding_constants.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_constants/lib_component_ui_menu_file_for_finding_constants.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_constants/ui_menu_file_for_finding_constants.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_decomposition/lib_component_ui_menu_view_decomposition.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_decomposition/lib_component_ui_menu_view_decomposition.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_decomposition/ui_menu_view_decomposition.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitional_domain/lib_component_ui_menu_file_for_finding_definitional_domain.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitional_domain/lib_component_ui_menu_file_for_finding_definitional_domain.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitional_domain/ui_menu_file_for_finding_definitional_domain.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitions/lib_component_ui_menu_file_for_finding_definitions.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitions/lib_component_ui_menu_file_for_finding_definitions.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_definitions/ui_menu_file_for_finding_definitions.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_examples/lib_component_ui_menu_file_for_finding_examples.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_examples/lib_component_ui_menu_file_for_finding_examples.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_examples/ui_menu_file_for_finding_examples.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_formal_statement/lib_component_ui_menu_file_for_finding_formal_statement.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_formal_statement/lib_component_ui_menu_file_for_finding_formal_statement.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_formal_statement/ui_menu_file_for_finding_formal_statement.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_full_semantic_square/lib_component_ui_menu_view_full_semantic_square.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_full_semantic_square/lib_component_ui_menu_view_full_semantic_square.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_full_semantic_square/ui_menu_view_full_semantic_square.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_illustrations/lib_component_ui_menu_file_for_finding_illustrations.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_illustrations/lib_component_ui_menu_file_for_finding_illustrations.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_illustrations/ui_menu_file_for_finding_illustrations.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_key_concepts/lib_component_ui_menu_file_for_finding_key_concepts.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_key_concepts/lib_component_ui_menu_file_for_finding_key_concepts.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_key_concepts/ui_menu_file_for_finding_key_concepts.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_links_of_relation_connected_with_element/lib_component_ui_menu_view_links_of_relation_connected_with_element.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_links_of_relation_connected_with_element/lib_component_ui_menu_view_links_of_relation_connected_with_element.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_links_of_relation_connected_with_element/ui_menu_view_links_of_relation_connected_with_element.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_main_concept/lib_component_ui_menu_file_for_finding_main_concept.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_main_concept/lib_component_ui_menu_file_for_finding_main_concept.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_main_concept/ui_menu_file_for_finding_main_concept.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_pattern/lib_component_ui_menu_file_for_finding_pattern.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_pattern/lib_component_ui_menu_file_for_finding_pattern.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_pattern/ui_menu_file_for_finding_pattern.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof/lib_component_ui_menu_file_for_finding_proof.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof/lib_component_ui_menu_file_for_finding_proof.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof/ui_menu_file_for_finding_proof.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof_steps/lib_component_ui_menu_file_for_finding_proof_steps.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof_steps/lib_component_ui_menu_file_for_finding_proof_steps.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_proof_steps/ui_menu_file_for_finding_proof_steps.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_relation/lib_component_ui_menu_file_for_finding_relation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_relation/lib_component_ui_menu_file_for_finding_relation.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_relation/ui_menu_file_for_finding_relation.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_solution/lib_component_ui_menu_file_for_finding_solution.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_solution/lib_component_ui_menu_file_for_finding_solution.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_solution/ui_menu_file_for_finding_solution.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_statements/lib_component_ui_menu_file_for_finding_statements.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_statements/lib_component_ui_menu_file_for_finding_statements.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_statements/ui_menu_file_for_finding_statements.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_theorems/lib_component_ui_menu_file_for_finding_theorems.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_theorems/lib_component_ui_menu_file_for_finding_theorems.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_theorems/ui_menu_file_for_finding_theorems.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_translation/lib_component_ui_menu_view_translation.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_translation/lib_component_ui_menu_view_translation.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/lib_ostis/sectn_lib_of_reusable_comp_ui/ui_menu/search/authorized_users/without_context/find_translation/ui_menu_view_translation.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_actions_and_tasks/section_subjdomain_actions_and_tasks.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_actions_and_tasks/section_subjdomain_actions_and_tasks.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_actions_and_tasks/section_subjdomain_actions_and_tasks.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_entities/section_subjdomain_entities.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_entities/section_subjdomain_entities.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_entities/section_subjdomain_entities.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_informational_structures_not_sc_code/section_subjdomain_informational_structures_not_sc_code.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_informational_structures_not_sc_code/section_subjdomain_informational_structures_not_sc_code.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_informational_structures_not_sc_code/section_subjdomain_informational_structures_not_sc_code.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_ligaments_relations/section_subjdomain_ligaments_relations.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_ligaments_relations/section_subjdomain_ligaments_relations.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_ligaments_relations/section_subjdomain_ligaments_relations.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_numbers_and_numeric_structures/section_subjdomain_numbers_and_numeric_structures.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_numbers_and_numeric_structures/section_subjdomain_numbers_and_numeric_structures.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_numbers_and_numeric_structures/subjdomain_numbers_and_numeric_structures.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_of_structures/section_subjdomain_of_structures.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_of_structures/section_subjdomain_of_structures.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_of_structures/section_subjdomain_of_structures.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_parameters_and_values/section_subjdomain_parameters_and_values.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_parameters_and_values/section_subjdomain_parameters_and_values.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_parameters_and_values/section_subjdomain_parameters_and_values.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_temporary_entities/section_subjdomain_temporary_entity.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_temporary_entities/section_subjdomain_temporary_entity.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subjdomain_temporary_entities/section_subjdomain_temporary_entity.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sc_identifiers/section_subjdomain_sc_identifiers.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sc_identifiers/section_subjdomain_sc_identifiers.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sc_identifiers/section_subjdomain_sc_identifiers.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sets/section_subjdomain_sets.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sets/section_subjdomain_sets.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/semantic_network_represent/section_sc_code/section_subject_domain_of_sets/section_subjdomain_sets.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_interdisciplinary_concepts/section_interdisciplinary_concepts.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_interdisciplinary_concepts/section_interdisciplinary_concepts.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_interdisciplinary_concepts/section_interdisciplinary_concepts.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_structure_of_knowledge_base_model/section_structure_of_knowledge_base_model.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_structure_of_knowledge_base_model/section_structure_of_knowledge_base_model.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_structure_of_knowledge_base_model/section_structure_of_knowledge_base_model.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_knowledges/section_subjdomain_knowledges.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_knowledges/section_subjdomain_knowledges.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_knowledges/section_subjdomain_knowledges.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_of_logical_formulas_and_logical_ontologies/section_subjdomain_of_logical_formulas_and_logical_ontologies.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_of_logical_formulas_and_logical_ontologies/section_subjdomain_of_logical_formulas_and_logical_ontologies.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_of_logical_formulas_and_logical_ontologies/subjdomain_of_logical_formulas_and_logical_ontologies.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_semantic_neighborhoods/section_subjdomain_of_semantic_neighborhoods.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_semantic_neighborhoods/section_subjdomain_of_semantic_neighborhoods.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subjdomain_semantic_neighborhoods/section_subjdomain_of_semantic_neighborhoods.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_ontologies/section_subjdomain_of_ontologies.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_ontologies/section_subjdomain_of_ontologies.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_ontologies/section_subjdomain_of_ontologies.scsi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_subject_domain/section_subjdomain_of_subject_domain.scs" beforeDir="false" afterPath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_subject_domain/section_subjdomain_of_subject_domain.scs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb/ims/ostis_tech/unificated_models/section_unificated_models_kb/section_subject_domain_of_subject_domain/section_subjdomain_of_subject_domain.scsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,9 +107,10 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nikita/CLionProjects/ostis/nlp-module&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nikita/ostis/apps/nlp-machine/external-modules&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -268,10 +138,42 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
-    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
+    <configuration default="true" type="EXTERNAL_TOOL_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-external>
+        <program>PYTHONTEX</program>
+        <main-file />
+        <work-dir />
+      </texify-external>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>EVINCE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <main-file />
+        <output-path>{projectDir}/out</output-path>
+        <auxil-path>{projectDir}/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>TEXLIVE</latex-distribution>
+        <has-been-run>false</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-makeindex>
+        <program>MAKEINDEX</program>
+        <main-file />
+        <work-dir />
+      </texify-makeindex>
+      <method v="2" />
     </configuration>
     <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug">
       <method v="2">
@@ -313,7 +215,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -358,7 +260,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -404,6 +306,11 @@
       </method>
     </configuration>
     <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -513,43 +420,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="EXTERNAL_TOOL_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify-external>
-        <program>PYTHONTEX</program>
-        <main-file />
-        <work-dir />
-      </texify-external>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify>
-        <compiler>PDFLATEX</compiler>
-        <compiler-path />
-        <sumatra-path />
-        <pdf-viewer>EVINCE</pdf-viewer>
-        <viewer-command />
-        <compiler-arguments />
-        <envs />
-        <main-file />
-        <output-path>{projectDir}/out</output-path>
-        <auxil-path>{projectDir}/auxil</auxil-path>
-        <compile-twice>false</compile-twice>
-        <output-format>PDF</output-format>
-        <latex-distribution>TEXLIVE</latex-distribution>
-        <has-been-run>false</has-been-run>
-        <bib-run-config>[]</bib-run-config>
-        <makeindex-run-config>[]</makeindex-run-config>
-      </texify>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify-makeindex>
-        <program>MAKEINDEX</program>
-        <main-file />
-        <work-dir />
-      </texify-makeindex>
-      <method v="2" />
-    </configuration>
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nlp-module" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -562,28 +432,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/external-modules/__main__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nlp-module" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/external-modules/server/frontend" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/external-modules/server/frontend/routes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -601,6 +451,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.SemanticAnalysisTest.test_analyse_text&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -615,6 +466,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.SyntacticAnalysisTest.test_analyse_text&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -629,62 +481,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/external-modules/modules/syntactic_analysis_module/test/tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Continuous" />
-      <item itemvalue="CMake Application.ContinuousBuild" />
-      <item itemvalue="CMake Application.ContinuousConfigure" />
-      <item itemvalue="CMake Application.ContinuousCoverage" />
-      <item itemvalue="CMake Application.ContinuousMemCheck" />
-      <item itemvalue="CMake Application.ContinuousStart" />
-      <item itemvalue="CMake Application.ContinuousSubmit" />
-      <item itemvalue="CMake Application.ContinuousTest" />
-      <item itemvalue="CMake Application.ContinuousUpdate" />
-      <item itemvalue="CMake Application.Experimental" />
-      <item itemvalue="CMake Application.ExperimentalBuild" />
-      <item itemvalue="CMake Application.ExperimentalConfigure" />
-      <item itemvalue="CMake Application.ExperimentalCoverage" />
-      <item itemvalue="CMake Application.ExperimentalMemCheck" />
-      <item itemvalue="CMake Application.ExperimentalStart" />
-      <item itemvalue="CMake Application.ExperimentalSubmit" />
-      <item itemvalue="CMake Application.ExperimentalTest" />
-      <item itemvalue="CMake Application.ExperimentalUpdate" />
-      <item itemvalue="CMake Application.Nightly" />
-      <item itemvalue="CMake Application.NightlyBuild" />
-      <item itemvalue="CMake Application.NightlyConfigure" />
-      <item itemvalue="CMake Application.NightlyCoverage" />
-      <item itemvalue="CMake Application.NightlyMemCheck" />
-      <item itemvalue="CMake Application.NightlyMemoryCheck" />
-      <item itemvalue="CMake Application.NightlyStart" />
-      <item itemvalue="CMake Application.NightlySubmit" />
-      <item itemvalue="CMake Application.NightlyTest" />
-      <item itemvalue="CMake Application.NightlyUpdate" />
-      <item itemvalue="CMake Application.sc-kpm" />
-      <item itemvalue="CMake Application.sc-agents-common" />
-      <item itemvalue="CMake Application.sc-agents-common-GenerateCode" />
-      <item itemvalue="CMake Application.sc-kpm-common" />
-      <item itemvalue="CMake Application.sc-python" />
-      <item itemvalue="CMake Application.sc-python-GenerateCode" />
-      <item itemvalue="CMake Application.sc-search" />
-      <item itemvalue="CMake Application.sc-ui" />
-      <item itemvalue="CMake Application.sc-utils" />
-      <item itemvalue="CMake Application.sc-core" />
-      <item itemvalue="CMake Application.sc-memory" />
-      <item itemvalue="CMake Application.sc-memory-GenerateCode" />
-      <item itemvalue="CMake Application.SCsParser" />
-      <item itemvalue="CMake Application.sctp-server" />
-      <item itemvalue="CMake Application.sc-server" />
-      <item itemvalue="CMake Application.antlr4_static" />
-      <item itemvalue="CMake Application.make_lib_output_dir" />
-      <item itemvalue="CMake Application.sc-builder" />
-      <item itemvalue="CMake Application.sc-builder-lib" />
-      <item itemvalue="CMake Application.sc-builder-lib-GenerateCode" />
-      <item itemvalue="CMake Application.sc-code-generator" />
-      <item itemvalue="Python.routes" />
       <item itemvalue="Python.__main__" />
       <item itemvalue="Python tests.Python tests for tests.SemanticAnalysisTest.test_analyse_text" />
       <item itemvalue="Python tests.Python tests for tests.SyntacticAnalysisTest.test_analyse_text" />
@@ -693,7 +496,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.__main__" />
-        <item itemvalue="Python.routes" />
         <item itemvalue="Python tests.Python tests for tests.SemanticAnalysisTest.test_analyse_text" />
         <item itemvalue="Python tests.Python tests for tests.SyntacticAnalysisTest.test_analyse_text" />
         <item itemvalue="Python tests.Python tests in tests.py" />
@@ -737,6 +539,9 @@
       <workItem from="1652002520301" duration="2000" />
       <workItem from="1652002709095" duration="1481000" />
       <workItem from="1652078475097" duration="606000" />
+      <workItem from="1670056007385" duration="9000" />
+      <workItem from="1670056017230" duration="18000" />
+      <workItem from="1670056042842" duration="51000" />
     </task>
     <servers />
   </component>

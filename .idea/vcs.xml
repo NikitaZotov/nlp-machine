@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ostis-web-platform" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/prepared_kb/ostis-web-platform/ims.ostis.kb" vcs="Git" />
   </component>
 </project>

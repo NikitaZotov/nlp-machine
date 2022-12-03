@@ -228,3 +228,5 @@ cython_debug/
 
 cmake-build-debug
 ostis-web-platform
+
+*.log.*
