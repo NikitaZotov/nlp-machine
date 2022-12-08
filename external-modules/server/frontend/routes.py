@@ -59,6 +59,20 @@ def input_text():
     return render_template('input.html')
 
 
+@app.route('/v2/input', methods=('GET', 'POST'))
+def input_text_v2():
+    article = request.args.get('title')
+    text = request.args.get('content')
+
+    if not article:
+        flash('Text article is required!')
+    elif service.get_text_by_article(article):
+        return redirect(f'{app.get_server_url()}/output/{article}')
+    elif text:
+        service.add_text_instance(text, article)
+        return redirect(f'{app.get_server_url()}/output/{article}')
+
+
 @app.route('/output/<text_article>')
 def show_text(text_article):
     text = service.get_text_by_article(text_article)

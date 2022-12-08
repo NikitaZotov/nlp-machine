@@ -1,6 +1,8 @@
 """
     Author Zotov Nikita
 """
+import nltk
+
 from server.frontend.configurator import Configurator
 from server.frontend.routes import app
 from server.server import Server

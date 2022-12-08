@@ -116,14 +116,18 @@ class NLPService:
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
             self._keynodes[CommonIdentifiers.NREL_SC_TEXT_TRANSLATION.value],
         )
-        template.triple(
-            ScAlias.ELEMENT.value,
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            [sc_types.LINK_VAR, ScAlias.LINK.value]
-        )
         result = client.template_search(template)
         if not len(result) == 0:
-            return result[0].get(ScAlias.LINK.value)
+            tuple_node = result[0].get(ScAlias.ELEMENT.value)
+            template = ScTemplate()
+            template.triple(
+                tuple_node,
+                sc_types.EDGE_ACCESS_VAR_POS_PERM,
+                [sc_types.UNKNOWN, ScAlias.LINK.value],
+            )
+            result = client.template_search(template)
+            if result:
+                return result[0].get(ScAlias.LINK.value)
 
         return ScAddr(0)
 
